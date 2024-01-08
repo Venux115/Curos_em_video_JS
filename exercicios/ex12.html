@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exercicio - 01</title>
+</head>
+<style>
+  body
+  {
+    background-color: #1E90FFFF;
+      color: #000;
+
+    height: 100vh;
+    font-family: "Fira Code", sans-serif;
+  }
+
+  header, footer, main
+  {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  main
+  {
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin:1rem 3rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  img
+  {
+      width: 300px;
+      object-fit: cover;
+      height: 300px;
+      border-radius: 1000px;
+  }
+
+</style>
+<body>
+    <header>
+      <h1 id="titulo"></h1>
+    </header>
+    <main id="container">
+        <form id="formulario" class="hidden">
+            <div class="input-group">
+                <label for="input_nascimento">Ano de Nascimento</label>
+                <input type="number" name="input_nascimento" id="input_nascimento">
+            </div>
+            <div class="input-group">
+                <label>Sexo:</label>
+                    <label><input type="radio" name="input_sexo" value="masculino">
+                    Masculino</label>
+                    <label><input type="radio" name="input_sexo" value="feminino">
+                    Feminino</label>
+            </div>
+            <button type="submit" id="input_submit">Verificar</button>
+        </form>
+        <div id="resposta"></div>
+    </main>
+    <footer>
+      <h3></h3>
+    </footer>
+</body>
+<!--<script src="ex12-1.js"></script>-->
+<script src="ex12-2.js"></script>
+</html>

@@ -29,7 +29,7 @@ btn_aula12.addEventListener("click", () => {
         <p>O uso de condições aninhadas permite lidar com situações mais complexas e tomar decisões com base em múltiplas condições. No entanto, é importante manter o código claro e legível para facilitar a compreensão e manutenção.</p>
     \
             `)
-        const item2 = criarItemLista("Condições multiplas switch",
+        const item2 = criarItemLista("Condições múltiplas switch",
             `
             
         <p><strong>"Switch"</strong> é uma estrutura de controle de fluxo em várias linguagens de programação, incluindo JavaScript. Ela é projetada para fornecer uma forma eficiente e estruturada de direcionar o fluxo de execução do programa com base no valor de uma expressão.</p>
